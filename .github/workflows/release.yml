@@ -83,7 +83,7 @@ jobs:
           openssl dgst -sha512 $FILE | sed 's/([^)]*)//g' >>$DGST
 
       - name: Upload files to Artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: wsl-ssh-pageant-${{ steps.get_filename.outputs.ASSET_NAME }}
           path: ./build_assets/*
