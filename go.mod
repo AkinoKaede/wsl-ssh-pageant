@@ -3,11 +3,11 @@ module github.com/AkinoKaede/wsl-ssh-pageant
 go 1.17
 
 require (
-	github.com/Microsoft/go-winio v0.5.0
+	github.com/Microsoft/go-winio v0.6.0
 	github.com/apenwarr/fixconsole v0.0.0-20191012055117-5a9f6489cc29
 	github.com/getlantern/systray v1.1.0
 	github.com/lxn/win v0.0.0-20210218163916-a377121e959e
-	golang.org/x/sys v0.0.0-20210820121016-41cdb8703e55
+	golang.org/x/sys v0.0.0-20220722155257-8c9f86f7a55f
 )
 
 require (
@@ -20,4 +20,6 @@ require (
 	github.com/getlantern/ops v0.0.0-20200403153110-8476b16edcd6 // indirect
 	github.com/go-stack/stack v1.8.1 // indirect
 	github.com/oxtoacart/bpool v0.0.0-20190530202638-03653db5a59c // indirect
+	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4 // indirect
+	golang.org/x/tools v0.1.12 // indirect
 )
